@@ -31,3 +31,4 @@ $hooks = new Hooks(); // Nothing is happening here, just getting an instance of 
 $hooks->setup_languages();
 $hooks->add_filters();
 $hooks->add_actions();
+//$hooks->add_uninstall_hooks();
