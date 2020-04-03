@@ -27,4 +27,7 @@ include ( 'classes/hooks.class.php' );
 include ( 'classes/actionlinks.class.php' );
 include ( 'classes/settings.class.php' );
 
-$fa_kit = new Main();
+$hooks = new Hooks(); // Nothing is happening here, just getting an instance of it.
+$hooks->setup_languages();
+$hooks->add_filters();
+$hooks->add_actions();
